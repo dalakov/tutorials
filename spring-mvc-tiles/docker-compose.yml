@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  tomcat:
+    image: "fabric8/tomcat-7:latest"
+    ports:
+      - "8081:8080"
+    networks:
+      - iotnet
+networks:
+  iotnet:

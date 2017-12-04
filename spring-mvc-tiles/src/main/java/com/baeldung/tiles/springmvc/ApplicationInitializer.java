@@ -1,9 +1,11 @@
 package com.baeldung.tiles.springmvc;
 
-import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+//import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
-
+public class ApplicationInitializer
+  //      extends AbstractAnnotationConfigDispatcherServletInitializer
+{
+/*
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[] { ApplicationConfiguration.class };
@@ -18,5 +20,5 @@ public class ApplicationInitializer extends AbstractAnnotationConfigDispatcherSe
     protected String[] getServletMappings() {
         return new String[] { "/" };
     }
-
+*/
 }
