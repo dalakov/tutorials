@@ -12,3 +12,10 @@ public class X509AuthenticationServerIntegrationTest {
     public void contextLoads() {
     }
 }
+/*
+curl -k --cert cid.pem --key key.pem https://localhost:8443/user
+keytool -delete -alias cid -keystore ./truststore.jks
+openssl pkcs12 -in cid.p12 -out key.pem -nocerts -nodes
+openssl pkcs12 -in cid.p12 -out cid.pem -clcerts -nokeys
+
+ */
